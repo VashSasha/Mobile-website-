@@ -7,15 +7,13 @@
 	.navbar-light .navbar-toggler{
 		background-color: #5094F1;
 		color: #fff;
-		height: 40px;
-		width: 55px;
+		height: 50px;
+		width: 60px;
 	}
-	.navbar-light .navbar-toggler-icon  {
-		color: #fff;
-		font-size: 20px;
-	}
+
+	
 	.caption img{
-		width: 40%;
+		width: 50%;
 	}
 	.wrapper{
 		display: -webkit-flex;
@@ -42,3 +40,4 @@
 		border: none;
 	}
 }
+
