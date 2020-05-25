@@ -1,0 +1,44 @@
+@media (max-width: 990px) {
+	.fixed-top{
+		display: inline-block;
+		position: inherit;
+		
+	}
+	.navbar-light .navbar-toggler{
+		background-color: #5094F1;
+		color: #fff;
+		height: 40px;
+		width: 55px;
+	}
+	.navbar-light .navbar-toggler-icon  {
+		color: #fff;
+		font-size: 20px;
+	}
+	.caption img{
+		width: 40%;
+	}
+	.wrapper{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+	}
+	
+	.wrapper .inner-text{
+		vertical-align: middle;
+		text-align: left;
+		padding-left: 20px;
+	}
+	.cart-headline{
+		text-align: center;
+		padding: 20px 0;
+	}
+	.cart img{
+		margin: 0 auto;
+	}
+	footer{
+		border: none;
+	}
+}

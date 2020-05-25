@@ -1,0 +1,107 @@
+@font-face {
+	font-family:'segoe';
+	src:url(../fonts/911Fonts.com_SegoePrint__-_911fonts.com_fonts_oki4.ttf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family:'jokerman';
+	src:url(../fonts/Jokerman-Regular.ttf);
+}
+.fixed-top{
+	display: none;
+}
+body{
+	font-family: 'segoe';
+}
+.jokerman{
+	font-family: 'jokerman';
+}
+.bg{
+	background-image: url(../img/bg_header.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size:100%;
+}
+.nav{
+	background-color: #fff;
+	font-size: 25px;
+	padding: 10px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	border-bottom: 3px solid #4F94F2;
+}
+
+.bg0 img {
+	opacity: 0;
+}
+
+.carousel-caption{
+	top: 5%;
+	right: 15%;
+
+}
+
+.caption{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.caption img{
+	display: block;
+}
+.caption-inner{
+	padding: 20px;
+	padding-left: 60px;
+	text-align: left;
+	
+}
+
+.caption-inner a{
+	background-color: #4F95F2;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+.wrapper{
+	text-align: center;
+	padding: 0 20px;
+}
+.wrapper img{
+	padding: 20px;
+}
+.wrapper h4{
+	color: #6AA3F4;
+}
+
+.cart-headline{
+	font-size: 55px;
+	font-weight: bold;
+	color: #4D8DD7;
+	margin-bottom: 20px;
+	text-shadow: 5px 7px 1px #ccc;
+	
+}
+
+.cart img{
+	width: 100%;
+}
+.cart p{
+	color: #969696;
+	line-height: 2em;
+	padding-left: 20px;
+}
+.cart h3{
+	text-align: center;
+}
+
+footer{
+	padding: 30px;
+	border-top: 1px solid #ccc;
+	text-align: center;
+	color: #969696;
+}
